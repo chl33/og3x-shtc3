@@ -1,5 +1,5 @@
 {
-  "name": "og3x-oled",
+  "name": "og3x-shtc3",
   "version": "0.0.1",
   "description": "A library for esp projects",
   "keywords": "esp32, esp8266, oled",
