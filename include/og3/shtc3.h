@@ -13,8 +13,8 @@ namespace og3 {
 class Shtc3 : public TempHumidity {
  public:
   Shtc3(const char* temp_name, const char* humidity_name, ModuleSystem* module_system_,
-        const char* description, VariableGroup* vg, bool publish = true, bool ha_discovery = true,
-        TwoWire* two_wire = nullptr)
+        const char* description, const VariableGroup& vg, bool publish = true,
+        bool ha_discovery = true, TwoWire* two_wire = nullptr)
       : TempHumidity(temp_name, humidity_name, module_system_, description, vg, publish,
                      ha_discovery),
         m_two_wire(two_wire) {
