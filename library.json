@@ -1,6 +1,6 @@
 {
     "name": "og3x-shtc3",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "Add support for SHTC3 sensor to chl33/og3",
     "keywords": "esp32, esp8266, shtc3",
     "authors": [
@@ -12,10 +12,10 @@
         }
     ],
     "dependencies": {
-        "chl33/og3": "~0.5.0",
+        "og3": "~0.6.0",
         "adafruit/Adafruit SHTC3 Library": "~1.0.0",
         "adafruit/Adafruit BusIO": "~1.17.4",
-	"adafruit/Adafruit Unified Sensor": "~1.1.0",
+        "adafruit/Adafruit Unified Sensor": "~1.1.0",
         "Wire": "*",
         "SPI": "*"
     },
